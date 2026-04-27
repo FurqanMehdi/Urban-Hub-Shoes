@@ -12,7 +12,7 @@ const footerLinks = {
     { name: "Formal Shoes", href: "/shop?category=formal" },
   ],
   company: [
-    { name: "About Us", href: "#about" },
+    { name: "About Us", href: "/about" },
     { name: "Contact", href: "#contact" },
     { name: "Careers", href: "#" },
     { name: "Press", href: "#" },
@@ -121,22 +121,22 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-gray-400 text-sm">
               <a
-                href="mailto:support@urbanhub.com"
+                href="mailto:urbanhimehub@gmail.com"
                 className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                support@urbanhub.com
+                urbanhimehub@gmail.com
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+923201924853"
                 className="flex items-center gap-2 hover:text-white transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                +1 (234) 567-890
+                +92 320-1924853
               </a>
               <span className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                New York, NY
+                Pakistan, Karachi
               </span>
             </div>
             <p className="text-gray-500 text-sm">

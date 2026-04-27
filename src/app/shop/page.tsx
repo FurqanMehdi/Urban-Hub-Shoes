@@ -285,9 +285,6 @@ function ShopContent() {
 
             {/* Product Grid */}
             <div className="flex-1">
-              <div className="mb-4 text-sm text-gray-500">
-                Showing {filteredProducts.length} products (Total in DB: {products.length})
-              </div>
               {!mounted || loading ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                   {[...Array(6)].map((_, i) => (

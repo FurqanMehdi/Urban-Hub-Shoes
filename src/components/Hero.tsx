@@ -66,29 +66,16 @@ export default function Hero() {
 
           {/* Hero Image */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
+            initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative"
+            className="relative flex items-center justify-center w-full h-full"
           >
-            <div className="relative aspect-square md:aspect-[4/5] rounded-3xl overflow-hidden bg-gray-200">
-              <img
-                src="/images/Hero.jpg"
-                alt="Urban Hub Premium Sneakers"
-                className="w-full h-full object-cover scale-95"
-              />
-              {/* Floating Badge */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6, duration: 0.6 }}
-                className="absolute top-6 right-6 bg-white px-4 py-2 rounded-full shadow-lg"
-              >
-                <span className="text-sm font-semibold text-gray-800">
-                  From RS 89
-                </span>
-              </motion.div>
-            </div>
+            <img
+              src="/images/Hero1.png"
+              alt="Urban Hub Premium Sneakers"
+              className="max-h-[55vh] sm:max-h-[60vh] md:max-h-[70vh] w-auto h-auto object-contain rounded-2xl drop-shadow-2xl"
+            />
           </motion.div>
         </div>
       </div>
