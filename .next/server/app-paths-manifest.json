@@ -1,9 +1,9 @@
 {
-  "/product/[id]/page": "app/product/[id]/page.js",
-  "/api/products/route": "app/api/products/route.js",
-  "/api/products/[id]/route": "app/api/products/[id]/route.js",
   "/page": "app/page.js",
   "/shop/page": "app/shop/page.js",
+  "/product/[id]/page": "app/product/[id]/page.js",
+  "/api/products/[id]/route": "app/api/products/[id]/route.js",
+  "/api/products/route": "app/api/products/route.js",
   "/admin/login/page": "app/admin/login/page.js",
   "/admin/dashboard/page": "app/admin/dashboard/page.js",
   "/admin/products/page": "app/admin/products/page.js"

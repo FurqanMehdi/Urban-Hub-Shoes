@@ -644,9 +644,6 @@ video {
 .right-4 {
   right: 1rem;
 }
-.right-6 {
-  right: 1.5rem;
-}
 .top-0 {
   top: 0px;
 }
@@ -664,9 +661,6 @@ video {
 }
 .top-4 {
   top: 1rem;
-}
-.top-6 {
-  top: 1.5rem;
 }
 .z-30 {
   z-index: 30;
@@ -731,9 +725,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.-mb-8 {
-  margin-bottom: -2rem;
 }
 .line-clamp-1 {
   overflow: hidden;
@@ -819,17 +810,20 @@ video {
 .h-\[100vh\] {
   height: 100vh;
 }
-.h-full {
-  height: 100%;
-}
 .h-auto {
   height: auto;
+}
+.h-full {
+  height: 100%;
 }
 .max-h-\[55vh\] {
   max-height: 55vh;
 }
 .min-h-screen {
   min-height: 100vh;
+}
+.min-h-\[280px\] {
+  min-height: 280px;
 }
 .w-0 {
   width: 0px;
@@ -879,11 +873,11 @@ video {
 .w-96 {
   width: 24rem;
 }
-.w-full {
-  width: 100%;
-}
 .w-auto {
   width: auto;
+}
+.w-full {
+  width: 100%;
 }
 .min-w-0 {
   min-width: 0px;
@@ -929,11 +923,6 @@ video {
 }
 .translate-x-0 {
   --tw-translate-x: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.scale-95 {
-  --tw-scale-x: .95;
-  --tw-scale-y: .95;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform {
@@ -1543,10 +1532,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
-}
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
@@ -1921,20 +1906,16 @@ html {
     display: none;
   }
 
-  .sm\:aspect-square {
-    aspect-ratio: 1 / 1;
-  }
-
   .sm\:h-auto {
     height: auto;
   }
 
-  .sm\:max-h-\[90vh\] {
-    max-height: 90vh;
-  }
-
   .sm\:max-h-\[60vh\] {
     max-height: 60vh;
+  }
+
+  .sm\:max-h-\[90vh\] {
+    max-height: 90vh;
   }
 
   .sm\:grid-cols-2 {
@@ -1982,10 +1963,6 @@ html {
     margin-top: 0px;
   }
 
-  .md\:-mb-16 {
-    margin-bottom: -4rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -1998,10 +1975,6 @@ html {
     display: none;
   }
 
-  .md\:aspect-\[4\/5\] {
-    aspect-ratio: 4/5;
-  }
-
   .md\:h-20 {
     height: 5rem;
   }
@@ -2012,10 +1985,6 @@ html {
 
   .md\:w-64 {
     width: 16rem;
-  }
-
-  .md\:max-w-none {
-    max-width: none;
   }
 
   .md\:grid-cols-2 {

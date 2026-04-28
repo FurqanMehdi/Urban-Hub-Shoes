@@ -25,6 +25,7 @@ export async function GET(req: NextRequest) {
 
     if (trending === 'true') {
       query.trending = true;
+      query.featured = { $ne: true };
     }
 
     if (search) {
